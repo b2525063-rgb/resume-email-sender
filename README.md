@@ -1,7 +1,7 @@
 # Resume Email Sender
 
 <div align="center">
-<img width="1200" height="475" alt="Resume Email Sender Banner" src="https://github.com/user-attachments/assets/9aa7341f-6230-4aa8-b40b-d0dd18c12d04" />
+<img width="700" height="400" alt="Resume Email Sender Banner" src="https://github.com/user-attachments/assets/9aa7341f-6230-4aa8-b40b-d0dd18c12d04" />
 </div>
 
 A powerful web application that streamlines the job application process by automating personalized email sending with resume attachments. This tool helps job seekers efficiently apply to multiple positions with tailored communications.
