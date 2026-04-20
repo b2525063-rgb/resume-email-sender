@@ -1,11 +1,10 @@
-
 # Resume Email Sender
 
 <div align="center">
-<img width="1200" height="475" alt="Resume Email Sender Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="Resume Email Sender Banner" src="" />
 </div>
 
-A powerful web application that streamlines the job application process by automating personalized email sending with resume attachments. Leveraging AI-powered resume optimization and cold email generation, this tool helps job seekers efficiently apply to multiple positions with tailored communications.
+A powerful web application that streamlines the job application process by automating personalized email sending with resume attachments. This tool helps job seekers efficiently apply to multiple positions with tailored communications.
 
 ## 🚀 Features
 
@@ -17,18 +16,11 @@ A powerful web application that streamlines the job application process by autom
 - **Attachment Handling**: Automatic resume attachment to emails
 - **Progress Tracking**: Real-time sending progress with detailed logs
 
-### AI-Powered Enhancements
-- **Resume Optimization**: AI-driven resume tailoring for specific job descriptions
-- **Cold Email Generation**: Automated creation of personalized cold emails
-- **ATS-Friendly Optimization**: Ensure resumes pass Applicant Tracking Systems
-- **Content Personalization**: Dynamic content replacement based on recipient data
-
 ### User Experience
 - **Intuitive Wizard Interface**: Step-by-step process from setup to sending
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Real-time Validation**: Immediate feedback on configuration and data
 - **Smooth Animations**: Polished UI with Framer Motion animations
-- **Dark/Light Mode Support**: Adaptive theming for user preference
 
 ## 🛠️ Tech Stack
 
@@ -48,8 +40,7 @@ A powerful web application that streamlines the job application process by autom
 - **Multer** - File upload handling
 - **XLSX** - Excel file parsing
 
-### AI & APIs
-- **Google Gemini AI** - Resume optimization and email generation
+### Deployment
 - **Vercel** - Deployment platform
 
 ## 📋 Prerequisites
@@ -58,7 +49,6 @@ Before running this application, make sure you have:
 
 - **Node.js** (version 18 or higher)
 - **npm** or **yarn** package manager
-- **Google Gemini API Key** (for AI features)
 - **SMTP Email Account** (Gmail, Outlook, etc. with app password)
 
 ## 🚀 Installation
@@ -74,18 +64,12 @@ Before running this application, make sure you have:
    npm install
    ```
 
-3. **Set up environment variables:**
-   Create a `.env.local` file in the root directory:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
-
-4. **Start the development server:**
+3. **Start the development server:**
    ```bash
    npm run dev
    ```
 
-5. **Open your browser:**
+4. **Open your browser:**
    Navigate to `http://localhost:3000`
 
 ## 📖 Usage
@@ -111,11 +95,7 @@ Before running this application, make sure you have:
    - Set the email subject line
    - Configure sending interval to avoid spam filters
 
-5. **AI Optimization (Optional)**
-   - Provide a job description
-   - Let AI optimize your resume and generate a personalized cold email
-
-6. **Preview & Send**
+5. **Preview & Send**
    - Review personalized emails for each recipient
    - Monitor sending progress in real-time
    - View detailed logs for troubleshooting
@@ -169,11 +149,7 @@ Send a personalized email with resume attachment.
 ### Vercel Deployment
 
 1. **Connect your repository to Vercel**
-2. **Set environment variables in Vercel:**
-   - `GEMINI_API_KEY`: Your Google Gemini API key
-   - `NODE_ENV`: `production`
-
-3. **Deploy:**
+2. **Deploy:**
    The `vercel.json` configuration handles the build and routing automatically.
 
 ### Local Production Build
@@ -208,12 +184,10 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 
 - Use this tool responsibly and in accordance with email service terms of use
 - Respect recipient privacy and anti-spam laws
-- The AI-generated content should be reviewed before sending
 - The developers are not responsible for misuse of this application
 
 ## 🙏 Acknowledgments
 
-- Google Gemini AI for powering the optimization features
 - The open-source community for the amazing libraries used
 - Lucide for the beautiful icons
 - Vercel for the seamless deployment experience
